@@ -1,0 +1,9 @@
+# Dependencies (vendored copies live in assets/vendor & assets/fonts)
+node_modules/
+
+# OS / editor
+.DS_Store
+*.log
+
+# Local scratch
+scratchpad-*.mjs

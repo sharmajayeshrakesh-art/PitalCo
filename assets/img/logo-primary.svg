@@ -1,0 +1,23 @@
+<svg viewBox="0 0 320 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PittalCo — Since 2026">
+  <g color="#c69a4c" fill="none" stroke="currentColor">
+    <!-- Medallion -->
+    <circle cx="160" cy="92" r="70" stroke-width="1.6"/>
+    <circle cx="160" cy="92" r="62" stroke-width="0.8" opacity="0.5"/>
+    <!-- Flame -->
+    <path d="M160 46 C 172 62, 176 74, 168 86 C 164 91, 160 93, 160 93 C 160 93, 156 91, 152 86 C 144 74, 148 62, 160 46 Z" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Diya bowl -->
+    <path d="M132 100 Q160 116 188 100" stroke-width="2" stroke-linecap="round"/>
+    <path d="M138 105 Q160 116 182 105" stroke-width="1" stroke-linecap="round" opacity="0.55"/>
+  </g>
+  <!-- Solid inner flame -->
+  <path d="M160 60 C 165 71, 165 80, 160 90 C 155 80, 155 71, 160 60 Z" fill="#c69a4c"/>
+  <!-- Wordmark -->
+  <text x="160" y="215" text-anchor="middle" fill="#c69a4c"
+        font-family="'Fraunces','Times New Roman',serif" font-size="42" font-weight="400"
+        letter-spacing="8">PITTALCO</text>
+  <!-- Rule + tagline -->
+  <line x1="96" y1="240" x2="224" y2="240" stroke="#c69a4c" stroke-width="0.8" opacity="0.5"/>
+  <text x="160" y="262" text-anchor="middle" fill="#c69a4c"
+        font-family="'Inter',Arial,sans-serif" font-size="12" font-weight="500"
+        letter-spacing="7" opacity="0.85">SINCE 2026</text>
+</svg>
