@@ -49,6 +49,28 @@
     "sameAs": ["https://instagram.com/pittalco"]
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "The Heritage Floor Vase",
+    "description": "Hand-engraved solid brass floor vase, 20 inches (50.8 cm) tall, handcrafted in India. Available singly or as a mirrored pair.",
+    "brand": { "@type": "Brand", "name": "PittalCo" },
+    "material": "Brass",
+    "height": { "@type": "QuantitativeValue", "value": 50.8, "unitCode": "CMT" },
+    "width": { "@type": "QuantitativeValue", "value": 16.5, "unitCode": "CMT" },
+    "weight": { "@type": "QuantitativeValue", "value": 2, "unitCode": "KGM" },
+    "image": [
+      "https://pittalco.com/assets/img/product-pair.jpg",
+      "https://pittalco.com/assets/img/product-single.jpg",
+      "https://pittalco.com/assets/img/product-detail.jpg"
+    ],
+    "offers": [
+      { "@type": "Offer", "name": "Single", "price": "3999", "priceCurrency": "INR", "availability": "https://schema.org/MadeToOrder", "url": "https://pittalco.com/#collection" },
+      { "@type": "Offer", "name": "Pair", "price": "7599", "priceCurrency": "INR", "availability": "https://schema.org/MadeToOrder", "url": "https://pittalco.com/#collection" }
+    ]
+  }
+  </script>
 </head>
 <body class="is-locked">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -397,123 +419,87 @@
       </div>
     </section>
 
-    <!-- ============ Collection ============ -->
+    <!-- ============ Detail band (real engraving macro) ============ -->
+    <section class="detail-band" aria-labelledby="detail-title">
+      <div class="detail-band__media">
+        <img src="assets/img/product-detail.jpg" alt="Close-up of the hand-engraved floral brasswork on a PittalCo vase" width="1400" height="895" loading="lazy" data-parallax data-speed="0.12" />
+      </div>
+      <div class="wrap">
+        <div class="detail-band__cap">
+          <p class="eyebrow" data-fade>Hand-Engraved</p>
+          <h2 id="detail-title" data-split-lines>Every line,<br />cut by hand.</h2>
+          <p data-fade>A dense floral vine is chased into the brass by hand, chisel by chisel — the reason no two vases, and no two pairs, are ever exactly alike.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Collection — the product ============ -->
     <section class="section collection" id="collection" aria-labelledby="collection-title">
       <div class="wrap">
         <div class="collection__head">
           <div>
             <p class="eyebrow" data-fade>The Collection</p>
-            <h2 class="h-xl" id="collection-title" data-split-lines>Objects with<br />a second life.</h2>
+            <h2 class="h-xl" id="collection-title" data-split-lines>The heritage<br />floor vase.</h2>
           </div>
-          <p class="lead" data-fade>A considered edit of pieces for the table, the altar and the everyday ritual.</p>
+          <p class="lead" data-fade>One object, made to order — offered alone, or as a mirrored pair.</p>
         </div>
 
-        <div class="grid collection__grid">
-          <article class="product" data-reveal>
-            <div class="reveal-img product__media" data-img-reveal>
-              <span class="sheen" aria-hidden="true"></span>
-              <span class="product__tag">Signature</span>
-              <!-- Kalash -->
-              <svg viewBox="0 0 300 400" fill="none" aria-hidden="true">
-                <ellipse cx="150" cy="384" rx="90" ry="12" fill="url(#brassGlow)" opacity="0.22"/>
-                <!-- fanned mango leaves -->
-                <g opacity="0.95">
-                  <g transform="translate(150 150) rotate(-44)"><path d="M0 0 C -13 -34 -13 -68 0 -92 C 13 -68 13 -34 0 0 Z" fill="url(#brassGrad)"/></g>
-                  <g transform="translate(150 150) rotate(-22)"><path d="M0 0 C -13 -34 -13 -68 0 -92 C 13 -68 13 -34 0 0 Z" fill="url(#brassGrad)"/></g>
-                  <g transform="translate(150 150)"><path d="M0 0 C -13 -36 -13 -72 0 -98 C 13 -72 13 -36 0 0 Z" fill="url(#brassGradV)"/></g>
-                  <g transform="translate(150 150) rotate(22)"><path d="M0 0 C -13 -34 -13 -68 0 -92 C 13 -68 13 -34 0 0 Z" fill="url(#brassGrad)"/></g>
-                  <g transform="translate(150 150) rotate(44)"><path d="M0 0 C -13 -34 -13 -68 0 -92 C 13 -68 13 -34 0 0 Z" fill="url(#brassGrad)"/></g>
-                </g>
-                <ellipse cx="150" cy="122" rx="23" ry="27" fill="url(#brassGradV)"/>
-                <path d="M138 108 C 143 101, 157 101, 162 108" stroke="#f6e8cc" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
-                <ellipse cx="150" cy="150" rx="34" ry="8" fill="url(#brassGrad)"/>
-                <ellipse cx="150" cy="149" rx="22" ry="4" fill="#5c451e" opacity="0.4"/>
-                <path d="M118 154 C 74 184, 70 266, 116 312 C 142 336, 158 336, 184 312 C 230 266, 226 184, 182 154 C 162 166, 138 166, 118 154 Z" fill="url(#brassGrad)"/>
-                <path d="M132 174 C 112 204, 112 260, 134 294" stroke="#f6e8cc" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
-                <path d="M92 234 Q150 252 208 234" stroke="#5c451e" stroke-width="2" opacity="0.4"/>
-                <path d="M126 316 Q150 326 174 316 L184 342 Q150 350 116 342 Z" fill="url(#brassGradV)"/>
-                <ellipse cx="150" cy="346" rx="44" ry="9" fill="url(#brassGrad)"/>
-              </svg>
+        <div class="pf__grid">
+          <!-- Media -->
+          <div class="pf__media">
+            <figure class="pf__frame reveal-img" data-img-reveal>
+              <span class="pf__sheen" aria-hidden="true"></span>
+              <img id="pfMain" src="assets/img/product-pair.jpg" alt="A matched pair of hand-engraved brass floor vases styled on a marble table" width="1400" height="1867" />
+              <figcaption id="pfCap">The Pair</figcaption>
+            </figure>
+            <div class="pf__thumbs" role="tablist" aria-label="Product views">
+              <button class="pf__thumb" role="tab" aria-current="true" data-src="assets/img/product-pair.jpg" data-cap="The Pair" data-fit="cover" aria-label="View the pair">
+                <img src="assets/img/product-pair.jpg" alt="" loading="lazy" />
+              </button>
+              <button class="pf__thumb" role="tab" data-src="assets/img/product-single.jpg" data-cap="Single Vase" data-fit="contain" aria-label="View a single vase">
+                <img src="assets/img/product-single.jpg" alt="" class="contain" loading="lazy" />
+              </button>
+              <button class="pf__thumb" role="tab" data-src="assets/img/product-detail.jpg" data-cap="Hand-engraved detail" data-fit="cover" aria-label="View the engraving detail">
+                <img src="assets/img/product-detail.jpg" alt="" loading="lazy" />
+              </button>
             </div>
-            <div class="product__foot"><h3>The Kalash</h3><span class="product__price">From ₹8,900</span></div>
-            <p class="product__desc">Our signature sacred vessel — a centrepiece for the home altar or the console table.</p>
-          </article>
+          </div>
 
-          <article class="product" data-reveal>
-            <div class="reveal-img product__media" data-img-reveal>
-              <span class="sheen" aria-hidden="true"></span>
-              <span class="product__tag">Best Loved</span>
-              <!-- Urli bowl -->
-              <svg viewBox="0 0 340 360" fill="none" aria-hidden="true">
-                <ellipse cx="170" cy="336" rx="120" ry="14" fill="url(#brassGlow)" opacity="0.22"/>
-                <path d="M40 176 C 40 150, 300 150, 300 176 C 300 268, 232 312 170 312 C 108 312, 40 268, 40 176 Z" fill="url(#brassGrad)"/>
-                <ellipse cx="170" cy="172" rx="130" ry="30" fill="url(#brassGradV)"/>
-                <ellipse cx="170" cy="172" rx="104" ry="22" fill="#1c1a16" opacity="0.55"/>
-                <path d="M70 196 C 96 258, 244 258, 270 196" stroke="#5c451e" stroke-width="2" opacity="0.4" fill="none"/>
-                <path d="M64 188 C 60 220, 90 250 110 258" stroke="#f6e8cc" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
-                <ellipse cx="170" cy="318" rx="60" ry="12" fill="url(#brassGradV)"/>
-                <!-- floating petals -->
-                <path d="M150 168 q20 -12 40 0 q-20 10 -40 0Z" fill="#e7c883" opacity="0.7"/>
-                <path d="M188 172 q14 -8 28 0 q-14 7 -28 0Z" fill="#c69a4c" opacity="0.6"/>
-              </svg>
+          <!-- Info -->
+          <div class="pf__info" data-reveal>
+            <p class="eyebrow no-line">Solid Engraved Brass</p>
+            <h3>The Heritage Vase</h3>
+            <div class="pf__price-lead"><span class="from">From</span><span class="amt">&#8377;3,999</span></div>
+            <p class="pf__desc">A twenty-inch column of solid brass, hand-engraved end to end with a blooming floral vine. Substantial at two kilograms, it stands with quiet authority — alone on a console, or mirrored as a pair to frame a doorway.</p>
+
+            <dl class="pf__specs">
+              <div><dt>Height</dt><dd>20 in · 50.8 cm</dd></div>
+              <div><dt>Width</dt><dd>6.5 in · 16.5 cm</dd></div>
+              <div><dt>Weight</dt><dd>2 kg · solid brass</dd></div>
+              <div><dt>Finish</dt><dd>Hand-engraved, natural brass</dd></div>
+              <div><dt>Origin</dt><dd>Handcrafted in India</dd></div>
+            </dl>
+
+            <div class="pf__options">
+              <a class="opt" href="mailto:hello@pittalco.com?subject=Order%20enquiry%20%E2%80%94%20The%20Heritage%20Vase%20(Single)&body=I%27d%20like%20to%20order%20a%20single%20Heritage%20Floor%20Vase%20(Rs.%203%2C999).%20Please%20share%20the%20next%20steps." aria-label="Order a single vase for 3,999 rupees">
+                <span class="opt__label">Single</span>
+                <span class="opt__price">&#8377;3,999</span>
+                <span class="opt__note">One vase, endlessly versatile.</span>
+                <span class="opt__buy">Order <span class="arrow" aria-hidden="true">→</span></span>
+              </a>
+              <a class="opt opt--featured" href="mailto:hello@pittalco.com?subject=Order%20enquiry%20%E2%80%94%20The%20Heritage%20Vase%20(Pair)&body=I%27d%20like%20to%20order%20a%20pair%20of%20Heritage%20Floor%20Vases%20(Rs.%207%2C599).%20Please%20share%20the%20next%20steps." aria-label="Order a pair of vases for 7,599 rupees, saving 399">
+                <span class="opt__badge">Save &#8377;399</span>
+                <span class="opt__label">Pair</span>
+                <span class="opt__price">&#8377;7,599</span>
+                <span class="opt__note">Two, for perfect symmetry.</span>
+                <span class="opt__buy">Order <span class="arrow" aria-hidden="true">→</span></span>
+              </a>
             </div>
-            <div class="product__foot"><h3>The Urli</h3><span class="product__price">From ₹6,400</span></div>
-            <p class="product__desc">A wide, shallow bowl for floating flowers and tealights — stillness, cast in brass.</p>
-          </article>
-
-          <article class="product" data-reveal>
-            <div class="reveal-img product__media" data-img-reveal>
-              <span class="sheen" aria-hidden="true"></span>
-              <span class="product__tag">New</span>
-              <!-- Diya -->
-              <svg viewBox="0 0 300 380" fill="none" aria-hidden="true">
-                <ellipse cx="150" cy="352" rx="96" ry="14" fill="url(#brassGlow)" opacity="0.22"/>
-                <path d="M150 96 C 166 134, 168 160, 150 186 C 132 160, 134 134, 150 96 Z" fill="url(#brassGradV)"/>
-                <path d="M150 120 C 158 142, 158 166, 150 184 C 142 166, 142 142, 150 120 Z" fill="#fff3d6" opacity="0.7"/>
-                <path d="M56 256 C 56 234, 244 234, 244 256 C 244 312, 194 324 150 324 C 106 324, 56 312, 56 256 Z" fill="url(#brassGrad)"/>
-                <ellipse cx="150" cy="252" rx="94" ry="20" fill="url(#brassGradV)"/>
-                <ellipse cx="150" cy="252" rx="72" ry="14" fill="#1c1a16" opacity="0.5"/>
-                <path d="M240 250 L268 240 L246 268 Z" fill="url(#brassGrad)"/>
-                <ellipse cx="150" cy="330" rx="54" ry="12" fill="url(#brassGradV)"/>
-              </svg>
-            </div>
-            <div class="product__foot"><h3>The Aarti Lamp</h3><span class="product__price">From ₹3,200</span></div>
-            <p class="product__desc">A hand-pinched oil lamp that turns any evening into a small ceremony.</p>
-          </article>
-
-          <article class="product" data-reveal>
-            <div class="reveal-img product__media" data-img-reveal>
-              <span class="sheen" aria-hidden="true"></span>
-              <span class="product__tag">Limited</span>
-              <!-- Deepstambh candle stand -->
-              <svg viewBox="0 0 240 460" fill="none" aria-hidden="true">
-                <ellipse cx="120" cy="436" rx="80" ry="12" fill="url(#brassGlow)" opacity="0.22"/>
-                <path d="M120 40 C 132 68, 132 86, 120 104 C 108 86, 108 68, 120 40 Z" fill="url(#brassGradV)"/>
-                <ellipse cx="120" cy="118" rx="60" ry="14" fill="url(#brassGrad)"/>
-                <path d="M84 118 Q120 132 156 118" stroke="#5c451e" stroke-width="2" opacity="0.4" fill="none"/>
-                <rect x="112" y="128" width="16" height="150" rx="4" fill="url(#brassGradV)"/>
-                <ellipse cx="120" cy="210" rx="34" ry="9" fill="url(#brassGrad)"/>
-                <ellipse cx="120" cy="250" rx="26" ry="7" fill="url(#brassGrad)"/>
-                <path d="M96 286 L144 286 L134 320 L106 320 Z" fill="url(#brassGrad)"/>
-                <path d="M92 340 Q120 356 148 340 L160 400 Q120 416 80 400 Z" fill="url(#brassGradV)"/>
-                <ellipse cx="120" cy="406" rx="64" ry="14" fill="url(#brassGrad)"/>
-              </svg>
-            </div>
-            <div class="product__foot"><h3>The Deep Stambh</h3><span class="product__price">From ₹12,500</span></div>
-            <p class="product__desc">A standing lamp of temple proportions, reimagined for the modern threshold.</p>
-          </article>
-        </div>
-
-        <div style="text-align:center; margin-top: clamp(3rem,6vw,5rem);" data-fade>
-          <a class="btn" href="#contact" data-magnetic>
-            <span class="btn__fill" aria-hidden="true"></span>
-            <span class="btn__label">Enquire about a piece</span>
-            <span class="btn__label arrow" aria-hidden="true">→</span>
-          </a>
+            <p class="pf__note">Made to order · Ships worldwide · Each piece unique</p>
+          </div>
         </div>
       </div>
     </section>
-
     <!-- ============ Gallery ============ -->
     <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
       <div class="wrap">

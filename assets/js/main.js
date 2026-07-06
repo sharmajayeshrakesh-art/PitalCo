@@ -376,6 +376,35 @@
   }
 
   /* ---------------------------------------------------------
+     Product gallery — swap the main image from thumbnails
+     --------------------------------------------------------- */
+  function initProductGallery() {
+    const main = document.getElementById("pfMain");
+    const cap = document.getElementById("pfCap");
+    const thumbs = document.querySelectorAll(".pf__thumb");
+    if (!main || !thumbs.length) return;
+    thumbs.forEach((t) => {
+      t.addEventListener("click", () => {
+        const src = t.dataset.src;
+        if (main.getAttribute("src") === src) return;
+        thumbs.forEach((x) => x.setAttribute("aria-current", "false"));
+        t.setAttribute("aria-current", "true");
+        const swap = () => {
+          main.src = src;
+          main.classList.toggle("contain", t.dataset.fit === "contain");
+          if (cap) cap.textContent = t.dataset.cap || "";
+        };
+        if (hasGSAP && !prefersReduced) {
+          gsap.to(main, {
+            opacity: 0, duration: 0.28, ease: "power2.in",
+            onComplete: () => { swap(); gsap.to(main, { opacity: 1, duration: 0.45, ease: "power2.out" }); },
+          });
+        } else { swap(); }
+      });
+    });
+  }
+
+  /* ---------------------------------------------------------
      Header: reveal, hide on scroll down, condense on scroll
      --------------------------------------------------------- */
   function initHeader() {
@@ -425,6 +454,7 @@
     initCursor();
     initMagnetic();
     initMarquee();
+    initProductGallery();
 
     initPreloader(() => {
       // Reveal hero content on entry
