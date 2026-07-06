@@ -1,0 +1,17 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PittalCo emblem">
+  <!-- Outer medallion ring -->
+  <circle cx="60" cy="60" r="55" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <circle cx="60" cy="60" r="49" fill="none" stroke="currentColor" stroke-width="0.7" opacity="0.55"/>
+  <!-- Flame / lotus — the rising spirit of the lamp -->
+  <path d="M60 34
+           C 69 47, 72 56, 66.5 65
+           C 64 69, 60 71, 60 71
+           C 60 71, 56 69, 53.5 65
+           C 48 56, 51 47, 60 34 Z"
+        fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M60 45 C 63 52, 63.5 58, 60 65 C 56.5 58, 57 52, 60 45 Z"
+        fill="currentColor" opacity="0.9"/>
+  <!-- Diya bowl beneath the flame -->
+  <path d="M42 74 Q60 86 78 74" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M47 78 Q60 85 73 78" fill="none" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" opacity="0.6"/>
+</svg>
